@@ -1,0 +1,113 @@
+@media screen and (max-width:1135px) {
+    .body{
+        margin-top: 10%;
+        justify-content: space-between;
+    }
+    .text{
+        margin-left: 2rem;
+        width: 47%;
+    }
+    #text1{
+        width: 40%;
+    }
+    #about-us{
+        gap: .3rem;
+    }
+    .body{
+        gap: 2%;
+    }
+}@media  screen and ( max-width : 970px ){
+    .header-box2{
+        display: none;
+    }
+    .header-box3{
+        display: flex;
+    }
+    .header-box4{
+        display: none;
+    }
+    .toggle-btn{
+        display:flex;
+    }
+   .images{
+    display: none;
+   }
+   #text1{
+    width: 95%;
+    
+   }
+   #service p{
+    width: 80%;
+   }
+   .body-column1{
+    width: 88%;
+   }
+   h1{
+    font-size: 6vw;
+   }
+}
+@media screen and (max-width:860px) {
+    .image{
+        display: none;
+    }
+    .text{
+        margin-left: 2rem;
+        width: 85%;
+        margin-top: 3%;
+    }
+    .body-column1{
+        width: 95%;
+        margin-left: 0px;
+       }
+}
+@media screen and (max-width:626px) {
+    .footer-box2{
+        display: none;
+    }
+    .respons-footer{
+        display: flex;
+    }
+   .column2-box1{
+    margin-left: 1.4rem;
+   }
+   h1{
+    font-size: 8vw;
+   }
+
+}
+@media screen and (max-width:430px) {
+    .header-box1{
+        margin-left: 1rem;
+        gap: 10px;
+    }
+     .body{
+    margin-top: 25%;
+ }
+}
+@media screen and (max-width:370px){
+ .user-name{
+    display: none;
+ }
+    .footer-box1 .nam{
+    font-size: 1.5em;
+ }
+ .body{
+    margin-top: 25%;
+ }
+ .text{
+    margin-top: 6%;
+ }
+ .footercolumn2{
+    display: flex;
+    font-size: 14px;
+    gap: .5rem;
+}
+.column2-box1{
+    margin-left: 2rem;
+   }
+
+ h1{
+  font-size:12vw;
+}
+
+}
