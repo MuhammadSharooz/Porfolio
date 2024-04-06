@@ -1,0 +1,51 @@
+@media  screen and ( max-width : 970px ){
+    .header-box2{
+        display: none;
+    }
+    .header-box3{
+        display: flex;
+    }
+    .header-box4{
+        display: none;
+    }
+    .toggle-btn{
+        display:flex;
+    }
+    h1{
+        font-size: 6vw;
+       }
+}
+@media screen and (max-width:850px){
+    .heading{
+        margin-top: 4rem;
+    }
+}
+@media screen and (max-width:626px) {
+    .footer-box2{
+        display: none;
+    }
+    .respons-footer{
+        display: flex;
+    }
+    .heading{
+        margin-top: 4rem;
+    }
+    h1{
+        font-size: 8vw;
+    }
+}
+@media screen and (max-width:450px){
+    .user-name{
+       display: none;
+    }
+    .footercolumn2{
+        display: flex;
+        font-size: 14px;
+        gap: .5rem;
+    }
+}
+@media screen and (max-width:370px){
+    h1{
+    font-size:12vw;
+  }
+}
