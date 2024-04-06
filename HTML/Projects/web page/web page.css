@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@200;300;400;500&display=swap');
+html body.activity-stream div#root div div.outer-wrapper.ds-outer-wrapper-breakpoint-override.visible-logo main div.non-collapsible-section div.search-wrapper div.search-inner-wrapper button.search-handoff-button input.fake-editable 
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(54, 54, 54);
+    height: 100vh;
+    width: 100vw;
+    font-family:  -apple-system, BlinkMacSystemFont, "Segoe UI", Ubuntu, "Helvetica Neue", sans-serif;
+    font-size: 12px;
+}
+.container-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40%;
+    width: 100%;
+    
+}
+.container-header .icon img{
+   height: 250px;
+   width: 350px;
+}
+.container-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 60%;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.box{
+    display: flex;
+    height: 150px;
+    width: 150px;
+    background-color:rgba(121, 121, 121, 0);
+    border-radius: .5rem;
+    align-items: center;
+    justify-content: center;
+    margin: 2px 30px;
+   flex-direction: column;
+   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.562);
+}
+.name{
+    color: #fff;
+    margin: 0px 0px 10px 20px;
+
+}
+a{
+    text-decoration: none;
+}
+.box1{
+    display: flex;
+    height: 150px;
+    width: 150px;
+    background-color: rgba(121, 121, 121, 0);
+    border-radius: .5rem;
+    align-items: center;
+    justify-content: center;
+    margin: 2px 30px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.562);
+    
+}
+.box2{
+    display: flex;
+    height: 150px;
+    width: 150px;
+    background-color:rgba(121, 121, 121, 0);
+    border-radius: .5rem;
+    align-items: center;
+    justify-content: center;
+    margin: 2px 30px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.562);
+}
+.box3{
+    display: flex;
+    height: 150px;
+    width: 150px;
+    background-color: rgba(121, 121, 121, 0);
+    border-radius: .5rem;
+    align-items: center;
+    justify-content: center;
+    margin: 2px 30px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.562);
+}
+
