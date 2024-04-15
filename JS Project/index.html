@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="apple-touch-icon" sizes="180x180" href="../image/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../image/favicon-32x32.png">
@@ -71,13 +72,13 @@
             </div>
         </div>
         <!-- <body> -->
-        <div class="body">
-            <div class="heading">
+        <div class="body" >
+            <div class="heading" data-aos="fade-down">
                 <h1>JavaScript Projects</h1>
             </div>
         </div>
         <div class="project">
-            <div class="project-card">
+            <div class="project-card" data-aos="fade-up">
                 <a href="http://husky-meat.surge.sh/" target="_blank" rel="noopener noreferrer">
                     <img src="https://reviewit.pk/wp-content/uploads/2024/03/ramadan2024.jpg" alt="ranadan src image">
                     <div class="detail">
@@ -90,7 +91,7 @@
                     </div>
                 </a>
             </div>
-            <div class="project-card">
+            <div class="project-card" data-aos="fade-up">
                 <a href="https://muhammadsharooz.github.io/Calculator/" target="_blank" rel="noopener noreferrer">
                     <img src="https://d3mvlb3hz2g78.cloudfront.net/wp-content/uploads/2015/02/thumb_720_450_1411_f.jpg"
                         alt="Calculator src image">
@@ -104,7 +105,7 @@
                     </div>
                 </a>
             </div>
-            <div class="project-card">
+            <div class="project-card" data-aos="fade-up">
                 <a href="https://muhammadsharooz.github.io/Js-Password-Generator/" target="_blank"
                     rel="noopener noreferrer">
                     <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLi9MI6G2ctU5BhdoUAWzvDkrWwm4ckALy8fewiT6Q5AhCDRhS4bHZn9g3EWjickU2M-tZ_WKiXE6wzXPS4DZ0RBVllGInhLf2GsWE2P3rddGa-ZUsENEzChHo5m5GSK9qY6SlNKgGaHFLmWxE1jg66DztJjr65NLWkoTeFae2JHT__uaNw-2dI05k/s700/Password%20Generator.jpg"
@@ -119,7 +120,7 @@
                     </div>
                 </a>
             </div><!-- Row 2 -->
-            <div class="project-card">
+            <div class="project-card" data-aos="fade-up">
                 <a href="https://muhammadsharooz.github.io/Facebook-Post/" target="_blank" rel="noopener noreferrer">
                     <img src="https://ineasysteps.com/wp-content/uploads/2022/02/Page-42-create-post.jpg"
                         alt="facebook post creator image">
@@ -136,7 +137,7 @@
         </div>
 
     </div>
-    <div class="footer">
+    <div class="footer" data-aos="fade-up">
         <div class="footer-box1">
             <div class="nam">Muhammad Sharooz</div>
             <div class="footerText">@ 2024 All Rights Reserved.</div>
@@ -255,6 +256,15 @@
         </div>
     </div>
     <script src="../main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init( {
+        offset:"200",
+        duration: 1000,
+        easing: "ease-in-out",
+        anchorplacement:"center-bottom",
+      });
+    </script>
 </body>
 
 </html>

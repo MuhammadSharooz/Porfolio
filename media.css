@@ -84,7 +84,7 @@
     margin-top: 25%;
  }
 }
-@media screen and (max-width:370px){
+@media screen and (max-width:390px){
  .user-name{
     display: none;
  }
@@ -108,6 +108,9 @@
 
  h1{
   font-size:12vw;
+}
+.menu{
+    max-width: 170px;
 }
 
 }

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="apple-touch-icon" sizes="180x180" href="../image/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../image/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../image/favicon-16x16.png">
@@ -74,13 +74,13 @@
 
         </div>
         <!-- <body> -->
-        <div class="body">
-            <div class="heading">
+        <div class="body" >
+            <div class="heading" data-aos="fade-down">
                 <h1>CSS Projects</h1>
             </div>
         </div>
         <div class="project">
-            <div class="project-card">
+            <div class="project-card" data-aos="fade-up">
                 <a href="https://successful-carriage.surge.sh/" target="_blank" rel="noopener noreferrer">
                     <img src="https://site-images.similarcdn.com/image?url=olx.com.pk&t=1&s=1&h=9044c5f9eb96b7a0f232e6cdba46fcbb9dce89afd61c108f5b3cd7658b03e5b9"
                         alt="Olx web page">
@@ -92,7 +92,7 @@
                     </div>
                 </a>
             </div>
-            <div class="project-card">
+            <div class="project-card" data-aos="fade-up">
                 <a href="https://automatic-steam.surge.sh/" target="_blank" rel="noopener noreferrer">
                     <img src="https://templatesjungle.com/wp-content/uploads/2022/03/FoodWagon-%E2%80%93-Free-Bootstrap-5-HTML5-Restaurant-Food-Website-Template-1024x768.jpg"
                         alt="Foodwogan web page">
@@ -105,7 +105,7 @@
                 </a>
             </div>
 
-            <div class="project-card">
+            <div class="project-card" data-aos="fade-up">
                 <a href="http://wry-nail.surge.sh/" target="_blank" rel="noopener noreferrer">
                     <img src="https://muffingroup.com/blog/wp-content/uploads/2022/06/Be-Healthy.jpg"
                         alt="Healt web page">
@@ -117,7 +117,7 @@
                     </div>
                 </a>
             </div><!-- Row 2 -->
-            <div class="project-card">
+            <div class="project-card" data-aos="fade-up">
                 <a href="https://muhammadsharooz.github.io/figma-website/" target="_blank" rel="noopener noreferrer">
                     <img src="https://mhrobin.com/wp-content/uploads/2023/10/weger-1024x591.png"
                         alt="Rides providing web page">
@@ -129,7 +129,7 @@
                     </div>
                 </a>
             </div>
-            <div class="project-card">
+            <div class="project-card" data-aos="fade-up">
                 <a href="https://muhammadsharooz.github.io/salt-pepper/" target="_blank" rel="noopener noreferrer">
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1tx4acwseB3s9stYEyvcVqUFUuQyyHBpZqghaT2XkWePT0wyp1xUH0O_pNwQOcAC9qEM&usqp=CAU"
                         alt="Salt'n papper lahore web page">
@@ -141,7 +141,7 @@
                     </div>
                 </a>
             </div>
-            <div class="project-card">
+            <div class="project-card" data-aos="fade-up">
                 <a href="http://male-mint.surge.sh/" target="_blank" rel="noopener noreferrer">
                     <img src="https://www.codester.com/static/uploads/items/000/037/37922/preview.jpg"
                         alt="Healt web page">
@@ -156,7 +156,7 @@
         </div>
 
     </div>
-    <div class="footer">
+    <div class="footer" data-aos="fade-up">
         <div class="footer-box1">
             <div class="nam">Muhammad Sharooz</div>
             <div class="footerText">@ 2024 All Rights Reserved.</div>
@@ -275,6 +275,15 @@
         </div>
     </div>
     <script src="../main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init( {
+        offset:"200",
+        duration: 1000,
+        easing: "ease-in-out",
+        anchorplacement:"center-bottom",
+      });
+    </script>
 </body>
 
 </html>
